@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- arvo  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- dancing script  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+      integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap 5  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- My Css File  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Title  -->
+    <title>My History Webpage</title>
+    <!-- Inline CSS  -->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid mx-sm-5 mx-3">
+          <a class="navbar-brand fs-3" href="file:///E:/git%20demo/webwiz-portfolio/assignment/index.html?#" style="font-family: 'arvo'"
+            >Usman <span class="text-primary">Ghani</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul
+              class="navbar-nav ms-auto fs-5 text-center"
+              style="font-family: 'arvo'"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-primary"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#team">My Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul
+                  class="dropdown-menu text-center fs-6"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#services">Web & App Development</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#services">Graphic Desinging</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#services">Data Validation</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- 2nd part of header its Slider  -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://cdn.wallpapersafari.com/58/98/gXozQ2.jpg"
+              class="d-block img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/1/14/Hand_on_computer_keyboard.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://media.istockphoto.com/id/1251442350/photo/woman-using-laptop.webp?b=1&s=170667a&w=0&k=20&c=CMR2Jj9PdhxOj-PzTmGutuoSJzzep5mwx3KMrmK6HJE="
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- section of About -->
+    <section class="container" id="about">
+      <div class="text-center dancing-font my-5">
+        <h1>About <span class="text-primary">Me</span></h1>
+        <hr class="w-25 mx-auto" />
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h1 class="dancing-font text-center py-sm-3">
+            Do You <span class="text-primary">Know Me ?</span>
+          </h1>
+          <p class="px-2" style="font-family: arvo; text-align: justify">
+            I am Sheikh Muhammad Usman Ghani. I am From Karachi, Pakistan. I am
+            studying<span class="text-primary"> WEB-DEVELOPMENT </span> in these
+            days. I have also completed
+            <span class="text-primary">INTERMEDIATE</span> and right now, I've
+            been preparing university aptitude test for my bachelor's degree
+            since I've passed out from intermediate. The WEB & APP DEVELOPMENT
+            isn't only my passion, This is my dream and my hobby and I love it.
+          </p>
+        </div>
+
+        <div class="col-12 col-md-6 text-center">
+          <img
+            src="C:\Users\Muhammad Usman\OneDrive\Pictures\random images\s4.jpg"
+            alt="My Pic"
+            style="width: auto; max-height: 70vh"
+            class="p-2 border"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- this is My team section  -->
+    <section>
+      <div class="container" id="team">
+        <div class="text-center dancing-font my-5">
+          <h1>My <span class="text-primary">Team </span></h1>
+          <hr class="w-25 mx-auto" />
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <div class="card text-center border-white" style="width: auto">
+              <img
+                src="C:\Users\Muhammad Usman\OneDrive\Pictures\random images\team5.jpg"
+                alt=""
+                class="img-thumbnail card-img-top rounded-circle"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mr Rahul (Developer)</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4">
+            <div class="card text-center border-white" style="width: auto">
+              <img
+                src="C:\Users\Muhammad Usman\OneDrive\Pictures\random images\s2.jpg"
+                alt=""
+                class="img-thumbnail card-img-top rounded-circle"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mr Hassan (Designer)</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4">
+            <div class="card text-center border-white" style="width: auto">
+              <img
+                src="C:\Users\Muhammad Usman\OneDrive\Pictures\random images\s6.jpg"
+                alt=""
+                class="img-thumbnail card-img-top rounded-circle"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mr Sarim (Developer)</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section  -->
+    <section>
+      <div class="container" id="services">
+        <div class="text-center dancing-font my-5">
+          <h1>Our <span class="text-primary">Service's </span></h1>
+          <hr class="w-25 mx-auto" />
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+          <div class="col">
+            <div class="card m-2">
+              <div class="card-header">
+                <h5 class="card-title">WEB-DEVELOPMENT</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2" id="center-cards">
+              <div class="card-header">
+                <h5 class="card-title">GRAPHIC DESIGNING</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2" id="on-medium">
+              <div class="card-header">
+                <h5 class="card-title">APP DEVELOPMENT</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card m-2" id="on-medium">
+              <div class="card-header">
+                <h5 class="card-title">DATA SCIENCE</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2" id="center-cards">
+              <div class="card-header">
+                <h5 class="card-title">DATA VALIDATION</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card m-2">
+              <div class="card-header">
+                <h5 class="card-title">WORDPRESS</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact form  -->
+    <section>
+      <div class="container" id="contact">
+        <div class="text-center dancing-font my-5">
+          <h1>Contact <span class="text-primary">With Me </span></h1>
+          <hr class="w-25 mx-auto" />
+        </div>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail4"
+              placeholder="Please enter your valid email address"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="please enter strong password"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="Please enter your complete address with street and house number"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputCity"
+              placeholder="Please enter your residential city"
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Country</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose your country...</option>
+              <option>Pakistan</option>
+              <option>India</option>
+              <option>bangladesh</option>
+              <option>United Arab</option>
+              <option>America</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">State</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                Can I contact you anytime ?
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Send Request</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- footer  -->
+    <footer class="container-fluid bg-primary mt-5 text-light py-2 text-center">
+      @ Designed By Usman Ghani (SMIT)
+    </footer>
+
+    <!-- .links.. -->
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
